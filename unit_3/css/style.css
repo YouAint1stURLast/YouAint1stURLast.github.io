@@ -1,0 +1,51 @@
+hr {  
+	display: block;
+    margin-top: -4.8em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+body {
+	background: url(../images/1969-ford-mustang-boss-wallpapers-background-1.jpg);
+	height: 1000;
+	background-size: cover;
+	margin-bottom: 5.5em;
+	font-style: italic;
+	font-family: "Arial Black";
+
+}
+
+h1 {
+	font-size: 80px;
+	color: white;
+	margin-top: 0em;
+
+}
+
+p {
+	font-size: 25px;
+	color: white;
+	text-align: left;
+}
+.about_us {
+	color: white ;
+}
+
+ul {
+	color: white ;
+	font-size: 15px;
+	font-weight: 100;
+	font-variant: small-caps;
+}
+
+.company_history {
+	color: white ;
+	font-size: 15px;
+	font-weight: 100;
+	font-variant: small-caps;
+
+}
+
