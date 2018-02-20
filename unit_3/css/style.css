@@ -22,7 +22,7 @@ h1 {
 	font-size: 80px;
 	color: white;
 	margin-top: 0em;
-
+	
 }
 
 p {
@@ -31,7 +31,7 @@ p {
 	text-align: left;
 }
 .about_us {
-	color: white ;
+	color: white;
 }
 
 ul {
@@ -47,5 +47,10 @@ ul {
 	font-weight: 100;
 	font-variant: small-caps;
 
+}
+
+a {
+	text-decoration: underline white;
+	color: white
 }
 
