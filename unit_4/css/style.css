@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+
+
+hr {  
+	display: block;
+    margin-top: -4.3em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+body {
+	background: url(../images/1969-ford-mustang-boss-wallpapers-background-1.jpg);
+	height: 1000;
+	background-size: cover;
+	margin-bottom: 5.5em;
+	font-style: italic;
+	font-family: 'Raleway', sans-serif;
+
+
+
+}
+
+h1 {
+	font-size: 80px;
+	color: white;
+	margin-top: 0em;
+	font-family: 'Raleway', sans-serif;
+
+
+
+	
+}
+
+p {
+	font-size: 35px;
+	color: white;
+	text-align: left;
+	font-family: 'Raleway', sans-serif;
+
+
+}
+.about_us {
+	color: white;
+}
+
+ul {
+	color: white ;
+	font-size: 15px;
+	font-weight: 100;
+	font-variant: small-caps;
+	font-family: 'Nanum Gothic', sans-serif;
+
+}
+
+.company_history {
+	color: white ;
+	font-size: 15px;
+	font-weight: 100;
+	font-variant: small-caps;
+	font-family: 'Nanum Gothic', sans-serif;
+
+
+}
+
+a {
+	text-decoration: underline white;
+	color: white
+}
+
