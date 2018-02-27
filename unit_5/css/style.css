@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+
+body {
+	height: 1500px;
+	background-color: white;
+}
+
+#wrapper{
+	
+}
+
+header {
+	background-color: silver;
+    border: 1px black solid;
+    padding: 2px;
+}
+h1 {
+	font-size: 80px;
+	color: white;
+	margin-top: 0em;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+
+}
+
+hr {  
+	display: block;
+    margin-top: -4.3em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    border-color: gold;
+}
+
+p {
+	font-size: 35px;
+	color: white;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+}
+
+nav {
+	background-color: black;
+    height:5px;
+}
+.p_testimonals {
+	color: white ;
+	font-size: 25px;
+	font-weight: 100;
+	font-variant: small-caps;
+	font-family: 'Nanum Gothic', sans-serif;
+}
+.p_contact {
+	color: white ;
+	font-size: 25px;
+	font-weight: 100;
+	font-variant: small-caps;
+	font-family: 'Nanum Gothic', sans-serif;
+}
+
+
+.section_one {
+	background-color: green;
+    border: 1px black solid;
+    padding: 2px;
+    background: url(../images/1969-ford-mustang-boss-wallpapers-background-1.jpg);
+	background-size: cover;
+	height: 1000px;
+}
+
+
+.section_two {
+	background-color: green;
+    border: 1px black solid;
+    padding: 2px;
+	height: 500px;
+}
+
+.company_history {
+	color: white ;
+	font-size: 15px;
+	font-weight: 100;
+	font-variant: small-caps;
+	font-family: 'Nanum Gothic', sans-serif;
+}
+
+
+footer{
+	background-color: red;
+    border: 1px black solid;
+    padding: 10px;
+    vertical-align:bottom;
+    text-align: center;
+  	
+}
