@@ -12,34 +12,28 @@ body {
 
 header {
 	background-color: silver;
-    border: 1px black solid;
-    padding: 2px;
+    border: 1px gold solid;
 }
+
 h1 {
-	font-size: 80px;
+	font-size: 20px;
 	color: white;
 	margin-top: 0em;
 	font-family: 'Raleway', sans-serif;
-	text-align: center;
-
+	text-align: left;
 }
 
 hr {  
-	display: block;
-    margin-top: -4.3em;
-    margin-bottom: 0.5em;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: inset;
+	
     border-width: 1px;
     border-color: gold;
 }
 
-p {
-	font-size: 35px;
+.p_header {
+	font-size: 10px;
 	color: white;
-	text-align: center;
 	font-family: 'Raleway', sans-serif;
+	text-align: left;
 }
 
 nav {
@@ -75,7 +69,7 @@ nav {
 .section_two {
 	background-color: green;
     border: 1px black solid;
-    padding: 2px;
+    padding: 2px;s
 	height: 500px;
 }
 
