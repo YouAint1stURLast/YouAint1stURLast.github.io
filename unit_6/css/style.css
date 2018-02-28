@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway');
 
 
 body {
 	height: 1500px;
 	background-color: white;
+	
 }
 
 #wrapper{
@@ -11,62 +11,91 @@ body {
 }
 
 header {
-	background-color: silver;
-    border: 1px gold solid;
+	font-family: 'Pacifico', cursive;
+	color: rgb(25, 85, 127);
+	
 }
 
 h1 {
-	font-size: 20px;
-	color: white;
-	margin-top: 0em;
-	font-family: 'Raleway', sans-serif;
-	text-align: left;
+	font-size: 150px;
+	text-align: center;
 }
 
-hr {  
-	
-    border-width: 1px;
-    border-color: gold;
-}
+
 
 .p_header {
-	font-size: 10px;
-	color: white;
-	font-family: 'Raleway', sans-serif;
-	text-align: left;
+	font-size: 50px;
+	text-align: center;
+}
+#images {
+}
+
+#white_space {
+	width: 100%;
+	padding-bottom: 2%;
+	color: rgb(25, 85, 127);
+}
+
+#white_space {
+	font-family: 'Pacifico', cursive;
+	font-size: 150px;
+	text-align: center;
 }
 
 nav {
-	background-color: black;
-    height:5px;
+	font-family: 'Pacifico', cursive;
+	color: rgb(25, 85, 127);
+	
 }
 .p_testimonals {
-	color: white ;
-	font-size: 25px;
-	font-weight: 100;
-	font-variant: small-caps;
-	font-family: 'Nanum Gothic', sans-serif;
+	float: left;
+
 }
 .p_contact {
-	color: white ;
-	font-size: 25px;
-	font-weight: 100;
-	font-variant: small-caps;
-	font-family: 'Nanum Gothic', sans-serif;
+	float: right;
 }
 
+
+.windy_road {
+	background: url(../images/windy_road.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding-bottom: 66.6666667%;
+	width: 100%;
+}
 
 .section_one {
-	background-color: green;
-    border: 1px black solid;
-    padding: 2px;
-    background: url(../images/1969-ford-mustang-boss-wallpapers-background-1.jpg);
+	background: url(../images/1969-ford-mustang-boss-wallpapers-background-1.jpg);
 	background-size: cover;
-	height: 1000px;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding-bottom: 31.1325546%;
+	width: 100%;	
+}
+
+.section_two {
+	background: url(../images/Black_camaro.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding-bottom: 37.08%;
+	width: 100%;
+	
+	
+}
+.section_three {
+	background: url(../images/light_blue_69_mustang_gt.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding-bottom: 36.17%;
+	width: 100%;
+	
 }
 
 
-.section_two {
+.section_four {
 	background-color: green;
     border: 1px black solid;
     padding: 2px;s
