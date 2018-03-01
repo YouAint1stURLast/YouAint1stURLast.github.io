@@ -34,13 +34,12 @@ h1 {
 	width: 100%;
 	padding-bottom: 2%;
 	color: rgb(25, 85, 127);
-}
-
-#white_space {
 	font-family: 'Pacifico', cursive;
 	font-size: 150px;
 	text-align: center;
 }
+
+
 
 nav {
 	font-family: 'Pacifico', cursive;
@@ -49,10 +48,12 @@ nav {
 }
 .p_testimonals {
 	float: left;
+	font-size:30px;
 
 }
 .p_contact {
 	float: right;
+	font-size:30px;
 }
 
 
@@ -61,11 +62,11 @@ nav {
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	padding-bottom: 66.6666667%;
+	padding-bottom: 56.25%;
 	width: 100%;
 }
 
-.section_one {
+.car_one {
 	background: url(../images/1969-ford-mustang-boss-wallpapers-background-1.jpg);
 	background-size: cover;
 	background-position: center;
@@ -74,7 +75,7 @@ nav {
 	width: 100%;	
 }
 
-.section_two {
+.car_two {
 	background: url(../images/Black_camaro.jpg);
 	background-size: cover;
 	background-position: center;
@@ -84,7 +85,7 @@ nav {
 	
 	
 }
-.section_three {
+.car_three {
 	background: url(../images/light_blue_69_mustang_gt.jpg);
 	background-size: cover;
 	background-position: center;
