@@ -37,13 +37,20 @@ h1 {
 	font-family: 'Pacifico', cursive;
 	font-size: 150px;
 	text-align: center;
+	text-shadow: 1px 0 black;
+
 }
 
 
 
-nav {
+.clearfix {
+
+	clear: both;
+	height: 0;
 	font-family: 'Pacifico', cursive;
 	color: rgb(25, 85, 127);
+	
+
 	
 }
 .p_testimonals {
