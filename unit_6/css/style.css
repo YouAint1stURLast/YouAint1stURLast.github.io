@@ -1,50 +1,139 @@
-<!DOCTYPE html>
-<html>
 
 
-<head>
-
-	<link rel="stylesheet" type="text/css" href="reset.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link href="https://fonts.googleapis.com/css?family=Pacifico|Parisienne|Raleway" rel="stylesheet">
-
-<title>
-</title>
-</head>
-
-<body>
-<div id="wrapper">
-		<header>
-			<h1>Ricky Bobby Industries</h1>
-			<p class="p_header">"If you don't buy it first.....you're last."</p>
-		</header>
-		<nav class="clearfix">
-			<p><span class="left">Testimonals</span> <span class="right">Contact Ricky Bobby</span></p>
-		</nav>
-	<div id="article_one">
-		<section class="windy_road">
-		</section>
-	</div>
-	<div id="article_two">
-		<p>Recently Sold</p>
-	</div>
-	<div id="article_three">
-		<section class="car_one">
-		</section>
-		<section class="car_two">
-		</section>
-		<section class="car_three">
-		</section>
-	</div>
+body {
+	height: 1500px;
+	background-color: white;
 	
- 	<div id="article_four">
-		<article class="aside">
-			<p> <span class="testimonal_left">I will split this section into two columns. Each column will be a testimonal containing a quote, picture of the reviewer, name of the reviewer, location of reviewer, image of car(this might be too much), and an image of 0-5 stars.NOT SURE WHY FLOAT ISNT WORKING, NEED TO REVIEW.</span> <span class="testimonal_right">I will split this section into two columns. Each column will be a testimonal containing a quote, picture of the reviewer, name of the reviewer, location of reviewer, image of car(this might be too much), and an image of 0-5 stars.NOT SURE WHY FLOAT ISNT WORKING, NEED TO REVIEW.<span></p>
-		</article>
-	</div>
+}
 
-	<footer>
-	</footer>
-</div>
-</body>
-</html>
+#wrapper{
+	
+}
+
+header {
+	font-family: 'Pacifico', cursive;
+	color: rgb(25, 85, 127);
+	
+}
+
+h1 {
+	font-size: 150px;
+	text-align: center;
+}
+
+
+
+.p_header {
+	font-size: 50px;
+	text-align: center;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+		
+}
+
+.left {
+	float: left;
+	font-size:30px;
+	font-family: 'Pacifico', cursive;
+	color: rgb(25, 85, 127);
+
+}
+.right {
+	float: right;
+	font-size:30px;
+	font-family: 'Pacifico', cursive;
+	color: rgb(25, 85, 127);
+}
+
+#article_one{}
+
+#article_two {
+	width: 100%;
+	padding-bottom: 2%;
+	color: rgb(25, 85, 127);
+	font-family: 'Pacifico', cursive;
+	font-size: 150px;
+	text-align: center;
+	text-shadow: 1px 0 black;
+
+}
+
+#article_three {
+}
+
+
+.windy_road {
+	background: url(../images/windy_road.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding-bottom: 56.25%;
+	width: 100%;
+}
+
+.car_one {
+	background: url(../images/1969-ford-mustang-boss-wallpapers-background-1.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding-bottom: 31.1325546%;
+	width: 100%;	
+}
+
+.car_two {
+	background: url(../images/Black_camaro.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding-bottom: 37.08%;
+	width: 100%;
+	
+	
+}
+.car_three {
+	background: url(../images/light_blue_69_mustang_gt.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding-bottom: 36.17%;
+	width: 100%;
+	
+}
+
+
+.aside:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+
+}
+
+.testimonal_left {
+	float: left;
+	font-family: 'Pacifico', cursive;
+	color: rgb(25, 85, 127);
+	font-size: 25px;
+}
+
+
+.testimonal_right {
+	float: right;
+	font-family: 'Pacifico', cursive;
+	color: rgb(25, 85, 127);
+	font-size: 25px;
+}
+
+
+footer{
+	
+}
