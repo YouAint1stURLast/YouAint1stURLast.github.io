@@ -27,10 +27,34 @@ h1 {
 	font-size: 50px;
 	text-align: center;
 }
-#images {
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+		
 }
 
-#white_space {
+.left {
+	float: left;
+	font-size:30px;
+	font-family: 'Pacifico', cursive;
+	color: rgb(25, 85, 127);
+
+}
+.right {
+	float: right;
+	font-size:30px;
+	font-family: 'Pacifico', cursive;
+	color: rgb(25, 85, 127);
+}
+
+#article_one{}
+
+#article_two {
 	width: 100%;
 	padding-bottom: 2%;
 	color: rgb(25, 85, 127);
@@ -41,26 +65,7 @@ h1 {
 
 }
 
-
-
-.clearfix {
-
-	clear: both;
-	height: 0;
-	font-family: 'Pacifico', cursive;
-	color: rgb(25, 85, 127);
-	
-
-	
-}
-.p_testimonals {
-	float: left;
-	font-size:30px;
-
-}
-.p_contact {
-	float: right;
-	font-size:30px;
+#article_three {
 }
 
 
@@ -103,27 +108,32 @@ h1 {
 }
 
 
-.section_four {
-	background-color: green;
-    border: 1px black solid;
-    padding: 2px;s
-	height: 500px;
+.aside:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+
 }
 
-.company_history {
-	color: white ;
-	font-size: 15px;
-	font-weight: 100;
-	font-variant: small-caps;
-	font-family: 'Nanum Gothic', sans-serif;
+.testimonal_left {
+	float: left;
+	font-family: 'Pacifico', cursive;
+	color: rgb(25, 85, 127);
+	font-size: 25px;
+}
+
+
+.testimonal_right {
+	float: right;
+	font-family: 'Pacifico', cursive;
+	color: rgb(25, 85, 127);
+	font-size: 25px;
 }
 
 
 footer{
-	background-color: red;
-    border: 1px black solid;
-    padding: 10px;
-    vertical-align:bottom;
-    text-align: center;
-  	
+	
 }
