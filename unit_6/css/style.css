@@ -78,6 +78,10 @@ h1 {
 	width: 100%;
 }
 
+.make{
+	background-position: center;
+}
+
 .car_one {
 	background: url(../images/1969-ford-mustang-boss-wallpapers-background-1.jpg);
 	background-size: cover;
@@ -123,6 +127,15 @@ h1 {
 	font-family: 'Pacifico', cursive;
 	color: rgb(25, 85, 127);
 	font-size: 25px;
+	width: 45%;
+	text-align: center;
+}
+
+.headshot_one {
+	background: url(../images/david_o.jpg);
+	height: 149px;
+	width: 140px;
+
 }
 
 
@@ -131,6 +144,18 @@ h1 {
 	font-family: 'Pacifico', cursive;
 	color: rgb(25, 85, 127);
 	font-size: 25px;
+	width: 45%;
+	text-align: center;
+}
+
+.headshot_two {
+	background: url(../images/janis_d.jpg);
+	height: 149px;
+	width: 140px;
+	position: absolute;
+    right: 0px;
+    border: 3px solid #73AD21;
+    padding: 10px;
 }
 
 
