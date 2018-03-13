@@ -54,7 +54,19 @@ h1 {
 
 #article_one{}
 
+#article_two {
+	width: 100%;
+	padding-bottom: 2%;
+	color: rgb(25, 85, 127);
+	font-family: 'Pacifico', cursive;
+	font-size: 150px;
+	text-align: center;
+	text-shadow: 1px 0 black;
 
+}
+
+#article_three {
+}
 
 
 .windy_road {
@@ -67,45 +79,7 @@ h1 {
 }
 
 .make{
-	display:block;
-    padding: 10px;   
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    width:10%;
-    border: 3px solid black;
-    text-align: center;
-}
-.model{
-	display:block;
-    padding: 10px;   
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    width:10%;
-    border: 3px solid black;
-}
-.year{
-	display:block;
-	float:;
-    padding: 10px;   
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    width:10%;
-    border: 3px solid black;
-}
-#article_two {
-	width: 100%;
-	padding-bottom: 1%;
-	color: rgb(25, 85, 127);
-	font-family: 'Pacifico', cursive;
-	font-size: 150px;
-	text-align: center;
-
-}
-
-#article_three {
+	background-position: center;
 }
 
 .car_one {
@@ -153,8 +127,10 @@ h1 {
 	font-family: 'Pacifico', cursive;
 	color: rgb(25, 85, 127);
 	font-size: 25px;
+<<<<<<< HEAD
 	width: 45%;
 	text-align: center;
+=======
 }
 
 
@@ -163,11 +139,15 @@ h1 {
 	font-family: 'Pacifico', cursive;
 	color: rgb(25, 85, 127);
 	font-size: 25px;
+>>>>>>> 2f20f71d337a76283e0a9cae13613f9f937180f2
 }
+
 .headshot_one {
 	background: url(../images/david_o.jpg);
 	height: 149px;
 	width: 140px;
+
+<<<<<<< HEAD
 }
 
 
@@ -194,3 +174,8 @@ h1 {
 footer{
 	
 }
+=======
+footer{
+	
+}
+>>>>>>> 2f20f71d337a76283e0a9cae13613f9f937180f2
