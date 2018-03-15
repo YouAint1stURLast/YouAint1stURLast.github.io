@@ -123,10 +123,9 @@ h1 {
 	background-position: center;
 	background-repeat: no-repeat;
 	padding-bottom: 37.08%;
-	width: 100%;
-	
-	
+	width: 100%;	
 }
+
 .car_three {
 	background: url(../images/light_blue_69_mustang_gt.jpg);
 	background-size: cover;
@@ -137,10 +136,22 @@ h1 {
 	
 }
 
-#article_four{
+#article_four:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
 }
 
-.aside_one{
+.aside_one:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
 
 }
 
@@ -215,5 +226,4 @@ footer{
 	background-color: rgb(25, 85, 127);
 	height: 148px;
 	width: 100%;
-	
 }
