@@ -62,7 +62,7 @@ h1 {
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	padding-bottom: 56.25%;
+	padding-bottom: 41.48%;
 	width: 100%;
 }
 
@@ -137,18 +137,14 @@ h1 {
 	
 }
 
+#article_four{
+}
 
-.aside:after {
-	visibility: hidden;
-	display: block;
-	font-size: 0;
-	content: " ";
-	clear: both;
-	height: 0;
+.aside_one{
 
 }
 
-.testimonal_left {
+.name_one {
 	float: left;
 	font-family: 'Pacifico', cursive;
 	color: rgb(25, 85, 127);
@@ -157,21 +153,7 @@ h1 {
 	text-align: center;
 }
 
-
-.testimonal_right {
-	float: right;
-	font-family: 'Pacifico', cursive;
-	color: rgb(25, 85, 127);
-	font-size: 25px;
-}
-.headshot_one {
-	background: url(../images/david_o.jpg);
-	height: 149px;
-	width: 140px;
-}
-
-
-.testimonal_right {
+.name_two {
 	float: right;
 	font-family: 'Pacifico', cursive;
 	color: rgb(25, 85, 127);
@@ -180,17 +162,58 @@ h1 {
 	text-align: center;
 }
 
-.headshot_two {
-	background: url(../images/janis_d.jpg);
+.aside_two {
+	margin: auto;
+    width: 65%;
+    border: 3px solid green;
+  
+}
+
+.headshot_one {
+	background: url(../images/david_o.jpg);
 	height: 149px;
 	width: 140px;
-	position: absolute;
-    right: 0px;
-    border: 3px solid #73AD21;
-    padding: 10px;
+    float: left;
 }
 
 
+.headshot_two {
+	background: url(../images/janis_d.jpg);
+	height: 148px;
+	width: 150px;
+ 	float: right;
+    
+}
+.aside_three:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both
+}
+
+.testimonal_one {
+	float: left;
+	font-family: 'Pacifico', cursive;
+	color: rgb(25, 85, 127);
+	font-size: 25px;
+	width: 45%;
+	text-align: center;;
+}
+
+
+.testimonal_two {
+	float: right;
+	font-family: 'Pacifico', cursive;
+	color: rgb(25, 85, 127);
+	font-size: 25px;
+	width: 45%;
+	text-align: center;
+    
+}
+
 footer{
+	background-color: rgb(25, 85, 127);
+	height: 148px;
+	width: 100%;
 	
 }
