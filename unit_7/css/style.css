@@ -52,10 +52,14 @@ h1 {
 	color: rgb(25, 85, 127);
 }
 
-#article_one{}
-
-
-
+#article_one:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	margin: 5px;
+}
 
 .windy_road {
 	background: url(../images/windy_road.jpg);
@@ -67,33 +71,35 @@ h1 {
 }
 
 .make{
+	float:left;
 	display:block;
     padding: 10px;   
     margin-left: auto;
     margin-right: auto;
     width:10%;
     border: 3px solid black;
-   
 }
-.model{
-	display:block;
-    padding: 10px;   
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    width:10%;
-    border: 3px solid black;
-}
+
 .year{
+	float: right;
 	display:block;
 	float:;
     padding: 10px;   
-    text-align: center;
     margin-left: auto;
     margin-right: auto;
     width:10%;
     border: 3px solid black;
 }
+
+.model{
+	display:block;
+    padding: 10px;   
+    margin-left: auto;
+    margin-right: auto;
+    width:10%;
+    border: 3px solid black;
+}
+
 #article_two {
 	width: 100%;
 	padding-bottom: 1%;
@@ -176,8 +182,6 @@ h1 {
 	margin: auto;
     width: 65%;
     clear: both;
-
-  
 }
 
 .headshot_one {
