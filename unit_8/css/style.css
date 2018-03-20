@@ -14,7 +14,6 @@ body {
 
 header {
 	
-	
 }
 
 h1 {
@@ -22,7 +21,15 @@ h1 {
 	text-align: center;
 }
 
-
+a {
+	font-family: 'Pacifico', cursive;
+	color: white;
+	font-size: 1em;
+	text-decoration: none;
+}
+a:hover {
+	color:hotpink;
+}
 
 .p_header {
 	font-size: 5em;
@@ -42,9 +49,10 @@ h1 {
 .left {
 	float: left;
 	font-size:3em;
-	
+	color: rgb(25, 85, 127);
 
 }
+
 .right {
 	float: right;
 	font-size:3em;
