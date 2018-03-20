@@ -128,78 +128,22 @@ h1 {
 	
 }
 
-#article_four:after {
-	visibility: hidden;
-	display: block;
-	font-size: 0;
-	content: " ";
-	clear: both;
-	height: 0;
-}
-
-.aside_one:after {
-	visibility: hidden;
-	display: block;
-	font-size: 0;
-	content: " ";
-	clear: both;
-	height: 0;
-
-}
-
-.name_one {
-	float: left;
-	font-size: 2.5em;
-	width: 50%;
+#article_four {
+	font-size: 3.5em;
 	text-align: center;
-}
-
-.name_two {
-	float: right;
-	font-size: 2.5em;
-	width: 50%;
-	text-align: center;
-}
-
-.aside_two:after {
-	visibility: hidden;
-	display: block;
-	font-size: 0;
-	content: " ";
-	clear: both;
-	height: 0;
-	margin: 65%;
-}
-
-.headshot {
-	height: 14.9em;
-	width: 50%;
-    float: left;
-}
-
-.headshot img {
 	margin: 0 auto;
-	display: block;
+	width: 100%;
 }
 
-#article_five:after {
-	visibility: hidden;
-	display: block;
-	font-size: 0;
-	content: " ";
-	clear: both;
-	height: 0;
-
-}
-
-.testimonal {
-	font-size: 1.8em;
-	width: 50%;
+#article_five {
+	font-size: 3.5em;
 	text-align: center;
+	margin: 0 auto;
+	width: 100%;
 }
-
-p.testimonal {
-	float: left;
+.testimonal
+{
+	font-size: .7em
 }
 
 footer{
@@ -234,7 +178,6 @@ footer{
     width:15%;
     border: .3em solid black
 }
-
 }
 
 @media only screen and (max-width:678px) {
@@ -274,7 +217,7 @@ h1 {
     border: .3em solid black
 }
 }
-@media only screen and (max-width:461px) {
+@media only screen and (max-width:530px) {
 h1 {
 	font-size: 6em;
 	text-align: center;
@@ -292,12 +235,33 @@ h1 {
 .left {
 	float: left;
 	font-size:1.5em;
-	
-
 }
+
 .right {
 	float: right;
 	font-size:1.5em;
-	
+}
+.make{
+	padding: .7em;   
+    margin-left: auto;
+    margin-right: auto;
+    width:30%;
+    border: .3em solid black;
+    }
+
+.year{
+	padding: .7em;  
+    margin-left: auto;
+    margin-right: auto;
+    width:30%;
+    border: .3em solid black;
+}
+
+.model{
+    padding: .7em;   
+    margin-left: auto;
+    margin-right: auto;
+    width:30%;
+    border: .3em solid black
 }
 }
